@@ -2,13 +2,95 @@ body{
     box-sizing:border-box;
     margin:0;
     padding:0;
+    font-family: Roboto, sans-serif;
     }
     
-    main{
-        background-color: #f6f8f9;
-    }
+main{
+    margin: 3rem;
+    background-color: #dee3e7;
+}  
+
+.small{
+    border-top: 0.5rem;
+    border-left: 2rem;
+    background-color: white;
+}
 
     .title{
-        font-family: Roboto, bold;
+        font-family: Roboto, bold, sans-serif;
     }
-
+    .task{
+        border-radius: 15% 15%;
+        color: white;
+        background-color: lightskyblue;
+        border-color: transparent;
+    }
+    
+    .section{
+        border-radius: 15% 15%;
+        color: lightgrey;
+        background-color: white;
+        border-color: lightgray;
+    }
+    .editorial{
+        font-size: 80%;        
+        border-radius: 20% 20%;
+        color: white;
+        background-color: lightskyblue;
+        border-color: transparent;
+        vertical-align: sub;
+        }
+    .q1-goals{
+        font-size: 80%;
+        border-radius: 15% 15%;
+        color: white;
+        background-color: purple;
+        border-color: transparent;
+        vertical-align: sub;
+        }
+    .recruiting{
+        font-size: 80%;
+        border-radius: 15% 15%;
+        color: white;
+        background-color: seagreen;
+        border-color: transparent;
+        vertical-align: sub;
+        }
+    .Mobile{
+        font-size: 80%;
+        border-radius: 15% 15%;
+        color: white;
+        background-color: orange;
+        border-color: transparent;
+        vertical-align: sub;
+        }
+    .website{
+        font-size: 80%;
+        border-radius: 15% 15%;
+        color: white;
+        background-color: fuchsia;
+        border-color: transparent;
+        vertical-align: sub;
+    }
+    .sales{
+        font-size: 80%;
+        border-radius: 15% 15%;
+        color: white;
+        background-color: greenyellow;
+        border-color: transparent;
+        vertical-align: sub;
+    }
+    .roundg{
+        border-color: green;
+        background-color: white;
+        border-radius: 50%;
+        color: green;
+        border-width: 0.1rem;
+        }
+    .rounds{
+        border-color: red;
+        background-color: white;
+        border-radius: 50%;
+        color: red;
+        border-width: 0.1rem;  
+        }
